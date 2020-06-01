@@ -1,0 +1,40 @@
+<html>
+<head>
+<style>th{width:20%}</style>
+<h1>Computer Architecture</h1>
+</head>
+<body>
+<table>
+<tr>
+<td style="vertical-align:top;" width="10%">
+<ol>
+<li><a href="index.html">Home</a></li>
+<li><a href="history.html">History</a></li>
+<li><a href="Categories.html">Categories</a></li>
+<li><a href="Implementation.html">Implementation</a></li>
+<li><a href="Examples.html">Examples</a></li>
+</ol>
+</td>
+<td>
+<h2>Computer Architecture Implementation</h2>
+<p>
+Once an instruction set and micro-architecture have been designed, a practical machine must be developed. This design process is called the 
+implementation. Implementation is usually not considered architectural design, but rather hardware design engineering. Implementation can be 
+further broken down into several steps:
+</p>
+<table border=black cellpadding=15>
+<th>Logic implementation</th><th>Circuit implementation</th><th>Physical implementation</th><th>Design validation</th>
+<tr>
+<td>designs the circuits required at a logic-gate level</td>
+<td>does transistor-level designs of basic elements (e.g., gates, multiplexers, latches) as well as of some larger blocks (ALUs, caches etc.) 
+that may be implemented at the log-gate level, or even at the physical level if the design calls for it.</td>
+<td>draws physical circuits. The different circuit components are placed in a chip floorplan or on a board and the wires connecting them are created.</td>
+<td>tests the computer as a whole to see if it works in all situations and all timings. Once the design validation process starts, the design at 
+the logic level are tested using logic emulators. However, this is usually too slow to run realistic test.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
